@@ -32,3 +32,10 @@ class DBMmanager:
         res = cursor.fetchall()
         cursor.close()
         return res
+
+    def get_projeckts2(self , poj_id):
+        cursor = self.connection.cursor()
+        cursor.execute("SELECT * FROM Projekts WHERE poj_id = ?" , [poj_id])
+        res = cursor.fetchall()
+        cursor.close()
+        return res

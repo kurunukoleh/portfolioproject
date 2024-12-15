@@ -25,9 +25,11 @@ def show_projeckt(poj_id):
     #nomer = session["quest_index"]
     #q = session["questions"][nomer]
     db_manager = DBMmanager(db_name)
-    projekt = db_manager.get_projeckts(poj_id)
+    projekts = db_manager.get_projeckts()
+    projekt = projekts[poj_id]
 
-    return render_template("question.html" , poj_id=poj_id , projekt=projekt)
+
+    return render_template("projecktpsssport.html" , poj_id=poj_id , projekt=projekt)
 
 
 app.run()

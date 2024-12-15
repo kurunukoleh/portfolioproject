@@ -3,7 +3,7 @@
 
 {% for proj in projeckts %}
     <div class = "qst bg-danger"><h2>{{ proj[1] }}</h2>
-    <p>{{ proj[2] }}</p>
+    <img src="{{proj[2]}}">
     <a href="/projeckts/{{proj[0]}}" class="btn btn-outline-secondary">Перейти</a>
     </div>
 {% endfor %}
