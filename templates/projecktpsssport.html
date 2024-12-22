@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <h1>{{projekt[1]}}</h1>
-<img src="{{projekt[2]}}">
+<img src="{{url_for('static' , filename = 'images/'+ projekt[2])}}" , class="imgs">
 <p>{{projekt[3]}}</p>
 
 {% endblock %}

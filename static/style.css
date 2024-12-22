@@ -1,0 +1,15 @@
+
+body{
+    margin: 10px;
+    background : rgb(0 , 255 ,0) ;
+}
+
+.imgs{
+    height: 200px ;
+    width: 200px;
+}
+
+.imgs2{
+    height: 500px ;
+    width: 800px;
+}
