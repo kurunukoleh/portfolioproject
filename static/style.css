@@ -10,6 +10,22 @@ body{
 }
 
 .imgs2{
-    height: 500px ;
-    width: 800px;
+    height: 600px ;
+    width: 700px;
+}
+
+p{
+    padding : 10px;
+}
+
+h1{
+    padding : 10px;
+}
+
+.pjb{
+    margin : 10px;
+}
+
+.insb{
+    padding : 10px;
 }
