@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2>Ласкаво просимо на моє портфоліо і сайт нашої архітектурного бюро.</h2>
+<h2 class="text-center">Ласкаво просимо на моє портфоліо і сайт нашої архітектурного бюро.</h2>
 
 <p>рекомендуємо ознайомитися з прикладами наших роєктів та замовити в нас проєкт.</p>
 
 <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide widger" data-bs-ride="carousel">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -21,22 +21,22 @@
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="{{ url_for('static', filename='images/3d.jpg')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{ url_for('static', filename='images/3d.jpg')}}" alt="..." class="d-block w-100 imgs2">
     </div>
     <div class="carousel-item">
-      <img src="{{ url_for('static', filename='images/3d-Recovered.jpg')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{ url_for('static', filename='images/3d-Recovered.jpg')}}" alt="..." class="d-block w-100 imgs2">
     </div>
     <div class="carousel-item">
-      <img src="{{url_for('static', filename='images/31ddd.jpg')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{url_for('static', filename='images/31ddd.jpg')}}" alt="..." class="d-block w-100 imgs2">
     </div>
     <div class="carousel-item">
-      <img src="{{url_for('static', filename='images/axon.jpg')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{url_for('static', filename='images/axon.jpg')}}" alt="..." class="d-block w-100 imgs2">
     </div>
     <div class="carousel-item">
-      <img src="{{url_for('static', filename='images/entry-Rцршеу.png')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{url_for('static', filename='images/entry-Rцршеу.png')}}" alt="..." class="d-block w-100 imgs2">
     </div>
     <div class="carousel-item">
-      <img src="{{url_for('static', filename='images/masterplann.finalpng.png')}}" alt="ююю" class="d-block w-100 imgs2">
+      <img src="{{url_for('static', filename='images/masterplann.finalpng.png')}}" alt="..." class="d-block w-100 imgs2">
     </div>
   </div>
 
@@ -45,6 +45,47 @@
     <span class="carousel-control-prev-icon"></span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<p>також</p>
+<!-- Carousel -->
+<div id="demo1" class="carousel slide widger" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo1" data-bs-slide-to="4"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{url_for('static', filename='images/photo_5328286516058904195_y.jpg')}}" alt="..." class="d-block w-100 imgs2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='images/Без назви.png')}}" alt="..." class="d-block w-100 imgs2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='images/white.png')}}" alt="..." class="d-block w-100 imgs2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='images/музичний хол.jpg')}}" alt="..." class="d-block w-100 imgs2">
+    </div>
+    <div class="carousel-item">
+      <img src="{{url_for('static', filename='images/фрагмент фасаду_гц.png')}}" alt="..." class="d-block w-100 imgs2">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>

@@ -10,7 +10,7 @@ body{
 }
 
 .imgs2{
-    height: 600px ;
+    height: 700px ;
     width: 700px;
 }
 
@@ -28,4 +28,8 @@ h1{
 
 .insb{
     padding : 10px;
+}
+
+widger{
+    width: 800px ;
 }

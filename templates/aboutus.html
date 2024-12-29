@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Мої соцмережі</h1>
+<h1 class="text-center">Мої соцмережі</h1>
 
 
 <ul class="nav">
@@ -23,5 +23,50 @@
 </ul>
 
 <p>Хочете замовити проєкт ? Напишіть нам в соціальні мережі або подзвоніть нам за номером 380979888513 або надішліть нам електронний лист по skibiditolchok596@gmil.com  </p>
+
+<div id="accordion" class="col-sm-4">
+
+  <div class="card bg-success text-white">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        Мій номер
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        380979888513
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-success text-white">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        Мій телеграм
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        @yanakyrynuk
+      </div>
+    </div>
+  </div>
+
+  <div class="card bg-success text-white">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+        Мря пошта
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        skibiditolchok596@gmil.com
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<p>дякуємо за увагу</p>
 
 {% endblock %}
