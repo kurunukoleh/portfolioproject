@@ -14,6 +14,11 @@ body{
     width: 700px;
 }
 
+.imgs3{
+    max-height: 50% ;
+    max-width: 50% ;
+}
+
 p{
     padding : 10px;
 }
@@ -33,3 +38,8 @@ h1{
 widger{
     width: 800px ;
 }
+
+.imm{
+   margin-left : 200px ;
+}
+
