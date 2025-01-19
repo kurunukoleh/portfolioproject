@@ -32,4 +32,4 @@ def show_projeckt(poj_id):
     return render_template("projecktpsssport.html" , poj_id=poj_id , projekt=projekt)
 
 if __name__ == "__main__":
-    app.run(port=5000)
+    app.run(host="0.0.0.0",port=5000)
