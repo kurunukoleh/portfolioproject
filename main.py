@@ -31,5 +31,5 @@ def show_projeckt(poj_id):
 
     return render_template("projecktpsssport.html" , poj_id=poj_id , projekt=projekt)
 
-
-app.run()
+if __name__ == "__main__":
+    app.run(port=5000)
